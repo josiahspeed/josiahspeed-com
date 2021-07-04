@@ -10,90 +10,48 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h2>Edgelink</h2>
-            <h3>October 2020 - Current</h3>
-            <div>
-              <li>Fully re-designed UI/UX of web application and oversaw its implementation</li>
-              <li>Worked as a front-end developer making UI changes to client’s applications</li>
-              <li>Completed web projects as lead designer for applications in the UK</li>
-              <li>Analyzed and identified UI/UX bottlenecks and generated solutions to resolve them</li>
-              <li>Planned and architected site migrations for client applications</li>
-            </div>
+            <h3>2014-2015</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elizt. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
           </div>
         </div>
         {/* - */}
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h2>Edgelink</h2>
-            <h3>October 2020 - Current</h3>
-            <div>
-              <li>Fully re-designed UI/UX of web application and oversaw its implementation</li>
-              <li>Worked as a front-end developer making UI changes to client’s applications</li>
-              <li>Completed web projects as lead designer for applications in the UK</li>
-              <li>Analyzed and identified UI/UX bottlenecks and generated solutions to resolve them</li>
-              <li>Planned and architected site migrations for client applications</li>
-            </div>
+            <h3>2014-2015</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
           </div>
         </div>
         {/* - */}
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h2>Edgelink</h2>
-            <h3>October 2020 - Current</h3>
-            <div>
-              <li>Fully re-designed UI/UX of web application and oversaw its implementation</li>
-              <li>Worked as a front-end developer making UI changes to client’s applications</li>
-              <li>Completed web projects as lead designer for applications in the UK</li>
-              <li>Analyzed and identified UI/UX bottlenecks and generated solutions to resolve them</li>
-              <li>Planned and architected site migrations for client applications</li>
-            </div>
+            <h3>2015-2016</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
           </div>
         </div>
         {/* - */}
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h2>Edgelink</h2>
-            <h3>October 2020 - Current</h3>
-            <div>
-              <li>Fully re-designed UI/UX of web application and oversaw its implementation</li>
-              <li>Worked as a front-end developer making UI changes to client’s applications</li>
-              <li>Completed web projects as lead designer for applications in the UK</li>
-              <li>Analyzed and identified UI/UX bottlenecks and generated solutions to resolve them</li>
-              <li>Planned and architected site migrations for client applications</li>
-            </div>
+            <h3>2016-2017</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
           </div>
         </div>
         {/* - */}
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h2>Edgelink</h2>
-            <h3>October 2020 - Current</h3>
-            <div>
-              <li>Fully re-designed UI/UX of web application and oversaw its implementation</li>
-              <li>Worked as a front-end developer making UI changes to client’s applications</li>
-              <li>Completed web projects as lead designer for applications in the UK</li>
-              <li>Analyzed and identified UI/UX bottlenecks and generated solutions to resolve them</li>
-              <li>Planned and architected site migrations for client applications</li>
-            </div>
+            <h3>2017-2018</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
           </div>
         </div>
         {/* - */}
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h2>Edgelink</h2>
-            <h3>October 2020 - Current</h3>
-            <div>
-              <li>Fully re-designed UI/UX of web application and oversaw its implementation</li>
-              <li>Worked as a front-end developer making UI changes to client’s applications</li>
-              <li>Completed web projects as lead designer for applications in the UK</li>
-              <li>Analyzed and identified UI/UX bottlenecks and generated solutions to resolve them</li>
-              <li>Planned and architected site migrations for client applications</li>
-            </div>
+            <h3>2018-2020</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
           </div>
         </div>
       </div>

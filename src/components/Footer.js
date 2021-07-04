@@ -17,13 +17,13 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <p>Portland Oregon</p>
+              <p>city Moscow Main st 2020 office #223</p>
             </div>
             <div className="d-flex">
-           
+              <a href="tel:555-555-555">+7(960)555-5555</a>
             </div>
             <div className="d-flex">
-              <p>josiahspeed@gmail.com</p>
+              <p>8020coding@gmail.com</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-2 col-sm-6">

@@ -2,10 +2,10 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 // AVATARS IMPORTS
-import avatar1 from "../images/avatars/progenyLogo.png";
-import avatar2 from "../images/avatars/progenyLogo.png";
-import avatar3 from "../images/avatars/usfLogo.png";
-import avatar4 from "../images/avatars/progenyLogo.png";
+import avatar1 from "../images/avatars/avatar-1.png";
+import avatar2 from "../images/avatars/avatar-2.png";
+import avatar3 from "../images/avatars/avatar-3.png";
+import avatar4 from "../images/avatars/avatar-4.png";
 
 
 const TestimonialsCarousel = () => {

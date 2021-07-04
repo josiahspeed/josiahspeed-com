@@ -12,7 +12,7 @@ const Services = () => {
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x" /></div>
-              <h3>Figma - Sketch</h3>
+              <h3>Web Design</h3>
               <p>I approach each project individually and always focus on the result.</p>
             </div>
           </div>
@@ -21,7 +21,7 @@ const Services = () => {
             <div className="box">
               <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x" /></div>
 
-              <h3>React</h3>
+              <h3>Web Development</h3>
               <p>Your website will be build with an new proven technologies.</p>
             </div>
           </div>
@@ -30,7 +30,7 @@ const Services = () => {
             <div className="box">
               <div className="circle"><FontAwesomeIcon className="icon" icon={faFacebookF} size="2x" /></div>
 
-              <h3>HTML5</h3>
+              <h3>Facebook Ads SMM</h3>
               <p>Your potential clients well see your services or product on Facebook</p>
             </div>
           </div>
@@ -39,7 +39,7 @@ const Services = () => {
             <div className="box">
               <div className="circle"><FontAwesomeIcon className="icon" icon={faGoogle} size="2x" /></div>
 
-              <h3>CSS</h3>
+              <h3>Google Ads</h3>
               <p>Your service or product will appear at the top of the Google search</p>.
               </div>
           </div>
