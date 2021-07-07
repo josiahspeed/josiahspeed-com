@@ -17,13 +17,13 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <p>city Moscow Main st 2020 office #223</p>
+              <p>Portland Oregon</p>
             </div>
             <div className="d-flex">
-              <a href="tel:555-555-555">+7(960)555-5555</a>
+              
             </div>
             <div className="d-flex">
-              <p>8020coding@gmail.com</p>
+              <p>josiahspeed@gmail.com</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-2 col-sm-6">
@@ -77,7 +77,7 @@ const Footer = () => {
             </div>
             <p className="pt-3 text-center">
               Copyright&copy;
-              {new Date().getFullYear()}&nbsp;New Horizon | All Rights Reserved
+              {new Date().getFullYear()}&nbsp;Josiah Speed | All Rights Reserved
             </p>
           </div>
         </div>

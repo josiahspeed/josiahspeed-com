@@ -16,13 +16,16 @@ const Header = () => {
         <Typed
           className="typed-text"
           
-          strings={["Hello"]}
-          typeSpeed={55}
-          
-          
-          
+          strings= {["Hello,^1000\n My Name is Josiah Speed"]}
+          typeSpeed= {40}
+          backSpeed= {0}
           stop
+          
+          
+          
         />
+        
+        
         <Typed
           className="typed-text"
           
