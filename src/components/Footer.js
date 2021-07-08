@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import {
   FacebookShareButton,
   FacebookIcon,
@@ -29,18 +30,27 @@ const Footer = () => {
           <div className="col-lg-3 col-md-2 col-sm-6">
             <div className="row">
               <div className="col">
-                <a className="footer-nav">Home</a>
-                <br />
-                <a className="footer-nav">About me</a>
-                <br />
-                <a className="footer-nav">Services</a>
-              </div>
-              <div className="col">
-                <a className="footer-nav">Experience</a>
-                <br />
-                <a className="footer-nav">Portfolio</a>
-                <br />
-                <a className="footer-nav">Contacts</a>
+              <ul className=" ml-auto">
+                <li className="nav-item active">
+                  <Link smooth={true} to="home" className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
+                </li>
+                <li className="nav-item">
+                  <Link smooth={true} to="about" offset={-110} className="nav-link" >about me</Link>
+                </li>
+                <li className="nav-item">
+                  <Link smooth={true} to="services" offset={-110} className="nav-link" href="#">services</Link>
+                </li>
+                <li className="nav-item">
+                  <Link smooth={true} to="experience" offset={-110} className="nav-link" >experience</Link>
+                </li>
+                <li className="nav-item">
+                  <Link smooth={true} to="portfolio" offset={-110} className="nav-link" >portfolio</Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link smooth={true} to="contacts" offset={-110} className="nav-link" >contacts</Link>
+                </li>
+              </ul>
               </div>
             </div>
           </div>

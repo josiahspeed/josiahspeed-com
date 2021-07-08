@@ -58,6 +58,7 @@ nav a.nav-link {
 
 .navbar {
   background-color: #ffffff;
+  border-bottom: 1px solid
 }
 
 nav ul li {
@@ -86,15 +87,31 @@ nav ul li {
  }
 }
 
-
+@media(max-width: 996px) {
+  .background-overlay a:hover {
+    background: none !important;
+  }
+}
 .navbar-nav a:hover {
+  color:var(--primary-light-grey) !important;
+  /*background: url(./images/navColorOverlay.png) !important;*/
+}
+.background-overlay a:hover {
   color: #FFFFFF !important;
- 
   background: url(./images/navColorOverlay.png) !important;
+  
+}
+
+.navbar-toggler {
+  background-color: #ff1b1b !important;
+}
+
+.navbar-toggler a{
+  color: var(--primary-white) !important;
 }
 
 .navbar-light a{
-  color: #ffffff !important;
+  color: var(--primary-white)
 }
 
 /************************ HEADER *********************************/
@@ -145,6 +162,7 @@ nav ul li {
 /*-------- HEADER MAIN OFFER BUTTON ---------------*/
 .btn-main-offer {
   border: 1px solid var(--primary-red);
+  cursor: pointer;
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
@@ -233,15 +251,15 @@ nav ul li {
 
 .services .box {
   height: 16rem;
-  border-bottom: 0.3125rem solid var(--primary-orange);
+  border-bottom: 0.3125rem solid var(--primary-black);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
-  background: var(--primary-white);
+  background: rgba(213, 215, 248, 0.493);
   transition: 0.3s ease-in-out;
 }
 
 .services .box:hover {
-  background-color: #983D97;
+  background: rgba(169, 174, 255, 0.911);
   border-bottom: 0.3125rem solid var(--primary-dark);
 }
 
@@ -356,7 +374,7 @@ nav ul li {
 
 /************************ PORTFOLIO *********************************/
 .portfolio-wrapper {
-  background: var(--primary-light-grey);
+  background: var(--primary-white);
   padding: 3rem 0;
 }
 
@@ -522,7 +540,7 @@ nav ul li {
 }
 
 .contacts h1 {
-  color: var(--primary-orange);
+  color: var(--primary-light-grey);
   padding: 1.3rem 0;
   text-transform: uppercase;
 }
