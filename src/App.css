@@ -657,7 +657,17 @@ textarea.form-control {
 }
 
 
+/************ Mobile Screen Resizing *************/
 
+@media(max-width: 1200px) {
+  a.nav-link {
+    font-size: 1.2rem !important;
+  }
+  .logo {
+    position: fixed;
+    top: -10px;
+  }
+}
 
 
 
