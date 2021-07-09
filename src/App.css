@@ -48,6 +48,10 @@ nav {
   color: #000000 !important;
 }
 
+.navbar-collapse {
+  background-color: var(--primary-white);
+}
+
 /*----- MENU LINKS --------*/
 nav a.nav-link {
   font-size: .8rem;
@@ -103,7 +107,7 @@ nav ul li {
 }
 
 .navbar-toggler {
-  background-color: #ff1b1b !important;
+  background-color: #000000 !important;
 }
 
 .navbar-toggler a{
@@ -112,6 +116,10 @@ nav ul li {
 
 .navbar-light a{
   color: var(--primary-white)
+}
+
+.navMenuBtn{
+  display: none !important;
 }
 
 /************************ HEADER *********************************/
@@ -143,6 +151,11 @@ nav ul li {
   color: #ffffff;
 }
 
+@media(max-width: 580px) {
+  .navbar-toggler {
+    margin-bottom: 35px;
+  }
+}
 /*-------- TYPED TEXT ---------------*/
 .typed-text {
   font-size: 2rem;
@@ -666,6 +679,37 @@ textarea.form-control {
   .logo {
     position: fixed;
     top: -10px;
+  }
+}
+
+@media(max-width: 992px) {
+  a.nav-link {
+    font-size: 1rem !important;
+  }
+  .logo {
+    
+  }
+  .navMenuBtn{
+    display: block !important;
+    border: none !important;
+    background: none;
+    position: absolute;
+    right: 55px;
+    top: 4px;
+    padding-top: 8px;
+    transform: scale(0.9);
+  }
+  
+  .navMenuBtn:hover{
+    transform: scale(1.0);
+  }
+  
+  
+}
+
+@media(max-width: 768px) {
+  a.nav-link {
+    font-size: 0.5rem !important;
   }
 }
 
