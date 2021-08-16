@@ -109,7 +109,8 @@ const Pofrfolio = () => {
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
         <h1 className="text-uppercase text-center py-5">portfolio</h1>
-        <div className="image-box-wrapper row justify-content-center">
+        
+        <div className="image-box-wrapper row justify-content-left">
           <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
             <img className="portfolio-image" src={netflix} alt="Netflix Clone Project..." />
             <div className="overflow"></div>
@@ -122,6 +123,10 @@ const Pofrfolio = () => {
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
+        </div>
+
+
+        <div className="image-box-wrapper row justify-content-right">
           <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
             <img className="portfolio-image" src={portfolio} alt="Portfolio React and Material UI Project..." />
             <div className="overflow"></div>
@@ -140,6 +145,7 @@ const Pofrfolio = () => {
       <PopupboxContainer {...popupboxConfigPortfolio} />
       <PopupboxContainer {...popupboxConfigTaskManager} />
     </div>
+    
   )
 }
 

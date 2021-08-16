@@ -5,7 +5,7 @@
   --primary-light-grey: #f4f4f4;
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
-  --primary-orange: #f9ab00;
+  --primary-orange: #ffffff; 
   --primary-blue: #5364f8;
   --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
@@ -103,7 +103,7 @@ nav ul li {
 .background-overlay a:hover {
   color: #FFFFFF !important;
   background: url(./images/navColorOverlay.png) !important;
-  
+  max-height: 55px;
 }
 
 .navbar-toggler {
@@ -387,8 +387,12 @@ nav ul li {
 
 /************************ PORTFOLIO *********************************/
 .portfolio-wrapper {
-  background: var(--primary-white);
+  background: var(--primary-black);
   padding: 3rem 0;
+}
+
+.portfolio-wrapper .row {
+  flex-wrap: nowrap !important;
 }
 
 .portfolio-wrapper h1 {
@@ -403,18 +407,17 @@ nav ul li {
 
 .portfolio-image-box {
   position: relative;
-  margin: 1rem;
 }
 
 /*------------ OVERFLOW BOX ------------------*/
 .overflow {
   position: absolute;
-   opacity: 0;
-   background: var(--primary-black);
-   width: 35rem;
-   height: 20rem;
-   top: 0;
-  border: 1px solid var(--primary-red);
+  opacity: 0;
+  background: var(--primary-black);
+  width: 35rem;
+  height: 31.7rem;
+  top: -5px;
+  border: 1px solid var(--primary-white);
   cursor: pointer;
 }
 
@@ -484,7 +487,6 @@ nav ul li {
 
 /************************ TESTIMONIALS *********************************/
 .testimonials {
-  background-image: url(testimonials-bg.jpg);
   background-size: cover;
   background-color: var(--primary-black);
   text-align: center;
@@ -548,7 +550,7 @@ nav ul li {
 
 /************************ CONTACTS COMPONENT *********************************/
 .contacts {
-  background: var(--primary-dark);
+  background: var(--primary-black);
   padding: 3rem 0;
 }
 
