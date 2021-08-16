@@ -129,7 +129,6 @@ nav ul li {
   width: 100%;
   background-size: cover;
   background-position: center;
-  height: 100vh;
   background-color: #000000;
 }
 
@@ -174,7 +173,7 @@ nav ul li {
 
 /*-------- HEADER MAIN OFFER BUTTON ---------------*/
 .btn-main-offer {
-  border: 1px solid var(--primary-red);
+  border: 1px solid var(--primary-white);
   cursor: pointer;
   text-transform: uppercase;
   border-radius: 0;
@@ -185,7 +184,8 @@ nav ul li {
 
 .btn-main-offer:hover {
   text-decoration: none;
-  background-color: var(--primary-hover-red);
+  border: 1px solid var(--primary-black);
+  background-color: var(--primary-black);
   color: var(--primary-white);
   transition:  .2s ease-in-out;
 }
@@ -213,6 +213,14 @@ nav ul li {
   align-items: center;
 }
 
+.aboutSection {
+  background-color: var(--primary-black) !important;
+  min-width: 100%;
+  margin-top: -1rem;
+}
+#about p {
+  color: var(--primary-white);
+}
 .profile-img {
   width: 21rem;
   border-radius: 50%;
@@ -220,7 +228,7 @@ nav ul li {
 }
 
 .about-heading {
-  color: var(--primary-orange);
+  color: var(--primary-white);
   text-transform: uppercase;
 }
 
@@ -234,9 +242,9 @@ nav ul li {
 .services {
   text-align: center;
   padding-bottom: 2rem;
-  background: var(--primary-white);
-  border-top: 4px dotted #FDB727;
-  border-bottom: 4px dotted #F5821F;
+  background: var(--primary-black);
+  border-top: 4px dotted var(--primary-white);
+  border-bottom: 4px dotted var(--primary-white);
 }
 
 .services h1 {
@@ -294,6 +302,7 @@ nav ul li {
 }
 .experience {
   padding: 0.7rem;
+  background: var(--primary-black);
 }
 
 .experience-wrapper {
