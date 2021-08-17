@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 /**/
 :root {
   --primary-white: #ffffff;
@@ -13,6 +15,7 @@
   --primary-black: #000000;
   --primary-transparent-black: rgba(0,0,0,0.7);
   --primary-green: green;
+  --primary-transparent-white: rgba(255, 255, 255, 0.8);
 }
 
 body {
@@ -45,11 +48,11 @@ nav {
 }
 
 .logo a:hover{
-  color: #000000 !important;
+  color: var(--primary-black);
 }
 
 .navbar-collapse {
-  background-color: var(--primary-white);
+  background-color: var(--primary-black);
 }
 
 /*----- MENU LINKS --------*/
@@ -61,21 +64,21 @@ nav a.nav-link {
 
 
 .navbar {
-  background-color: #ffffff;
+  background-color: var(--primary-black);
   border-bottom: 1px solid
 }
 
 nav ul li {
-  text-transform: uppercase;
+  
 }
 
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: #000000 !important;
-  font-size: 1.5rem;
-  font-weight: 700;
- 
+  color: var(--primary-white) !important;
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .navbar-brand {
@@ -102,8 +105,10 @@ nav ul li {
 }
 .background-overlay a:hover {
   color: #FFFFFF !important;
-  background: url(./images/navColorOverlay.png) !important;
-  
+  background: linear-gradient( #62BB47, #FDB727, #F5821F, #983D97, #E03A3E, #0F9DDF);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  height: 50px;
 }
 
 .navbar-toggler {
@@ -129,7 +134,7 @@ nav ul li {
   width: 100%;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 95vh;
   background-color: #000000;
 }
 
@@ -174,18 +179,23 @@ nav ul li {
 
 /*-------- HEADER MAIN OFFER BUTTON ---------------*/
 .btn-main-offer {
-  border: 1px solid var(--primary-red);
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: var(--primary-white);
+  border: 1px solid var(--primary-white);
   cursor: pointer;
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
+  font-family: 'Shadows Into Light', cursive;
+  background: linear-gradient(  #F5821F, #983D97, #E03A3E);       
 }
 
 .btn-main-offer:hover {
   text-decoration: none;
-  background-color: var(--primary-hover-red);
+  background-color: var(--primary-white);    
   color: var(--primary-white);
   transition:  .2s ease-in-out;
 }
@@ -207,6 +217,15 @@ nav ul li {
 
 
 /************************ ABOUT ME *********************************/
+.aboutSection {
+  background-color: var(--primary-black);
+  max-width: 100% !important;
+  margin-top: -15px;
+}
+
+.aboutSection p {
+  color: var(--primary-white);
+}
 .photo-wrap {
   display: flex;
   justify-content: center;
@@ -217,13 +236,32 @@ nav ul li {
   width: 21rem;
   border-radius: 50%;
   padding: .3rem;
+  margin-left:8rem;
+}
+
+.profile-img:hover {
+  background-color: var(--primary-white);
 }
 
 .about-heading {
-  color: var(--primary-orange);
+  font-family: 'Shadows Into Light', cursive;
+  color: var(--primary-white);
   text-transform: uppercase;
+  background: linear-gradient( #62BB47, #FDB727, #F5821F, #983D97, #E03A3E, #0F9DDF);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;         
+}
+.about-header h1{
+  font-family: 'Shadows Into Light', cursive !important;
 }
 
+.aboutLeft {
+  
+}
+.aboutRight {
+  margin-left: -8rem;
+  margin-top: 6rem;
+}
 @media(max-width: 468px) {
   .profile-img {
     width: 10rem;
@@ -234,13 +272,11 @@ nav ul li {
 .services {
   text-align: center;
   padding-bottom: 2rem;
-  background: var(--primary-white);
-  border-top: 4px dotted #FDB727;
-  border-bottom: 4px dotted #F5821F;
+  background: var(--primary-black);
 }
 
-.services h1 {
-  color: var(--primary-dark);
+.services h1, h3, p {
+  color: var(--primary-white);
   text-transform: uppercase;
 }
 
@@ -267,7 +303,7 @@ nav ul li {
   border-bottom: 0.3125rem solid var(--primary-black);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
-  background: rgba(213, 215, 248, 0.493);
+  background: rgba(255, 255, 255, 0.418);
   transition: 0.3s ease-in-out;
 }
 
@@ -294,6 +330,8 @@ nav ul li {
 }
 .experience {
   padding: 0.7rem;
+  background: var(--primary-black);
+  
 }
 
 .experience-wrapper {
@@ -307,8 +345,8 @@ nav ul li {
   color:#FFFFFF;
   font-size: 3rem;
   font-weight: 800;
-  background: url(./images/navColorOverlay.png) !important;
   background-repeat: no-repeat;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .experience-wrapper::before {
@@ -386,13 +424,16 @@ nav ul li {
 }
 
 /************************ PORTFOLIO *********************************/
+#portfolio .row {
+  flex-wrap: nowrap !important;
+}
 .portfolio-wrapper {
-  background: var(--primary-white);
+  background: var(--primary-black);
   padding: 3rem 0;
 }
 
 .portfolio-wrapper h1 {
-  color: var(--primary-orange);
+  color: var(--primary-white);
 }
 
 .portfolio-image {
@@ -484,7 +525,6 @@ nav ul li {
 
 /************************ TESTIMONIALS *********************************/
 .testimonials {
-  background-image: url(testimonials-bg.jpg);
   background-size: cover;
   background-color: var(--primary-black);
   text-align: center;
@@ -494,8 +534,9 @@ nav ul li {
 }
 
 .testimonials h1 {
-  color: var(--primary-orange);
+  color: var(--primary-white);
   padding: 3rem 0;
+  font-family: 'Shadows Into Light', cursive;
   text-transform: uppercase;
 }
 
@@ -503,11 +544,20 @@ nav ul li {
   text-align: center;
   max-width: 53.125rem;
   margin: 0 auto 2rem auto;
-  background: var(--primary-transparent-black); 
+  background: var(--primary-white); 
+  border-radius: 5px;
+}
+.carousel .control-dots .dot {
+  background: linear-gradient(  #FDB727, #F5821F, #983D97, #E03A3E) !important;
+  transform: scale(250%);
+      
 }
 
+.control-arrow {
+  background-color: #f9ab00 !important;
+}
 .myCarousel {
-  color: var(--primary-white);
+  color: var(--primary-black);
   background: transparent;
   margin-top: -6%;
   width: 54%;
@@ -521,18 +571,17 @@ nav ul li {
 }
 
 .myCarousel h3 {
-  color: var(--primary-orange);
+  color: var(--primary-black);
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .myCarousel p {
-  color: var(--primary-grey);
+  color: var(--primary-black);
 }
 
 .carousel .slide img {
   width: 10rem !important;
-  border-radius: 50%;
 }
 
 .carousel .slide {
@@ -548,7 +597,7 @@ nav ul li {
 
 /************************ CONTACTS COMPONENT *********************************/
 .contacts {
-  background: var(--primary-dark);
+  background: var(--primary-black);
   padding: 3rem 0;
 }
 

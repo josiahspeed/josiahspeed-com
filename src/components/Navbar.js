@@ -20,23 +20,22 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav background-overlay ml-auto">
             <li className="nav-item active">
-              <Link smooth={true} to="home" className="nav-link" href="#">Home<span className="sr-only">(current)</span></Link>
+              <Link smooth={true} to="home" className="nav-link specialLinkColorsOne" href="#">Home<span className="sr-only">(current)</span></Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="about" offset={-110} className="nav-link" >about me</Link>
+              <Link smooth={true} to="about" offset={-110} className="nav-link specialLinkColorsTwo" >About me</Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="services" offset={-110} className="nav-link" href="#">services</Link>
+              <Link smooth={true} to="services" offset={-110} className="nav-link specialLinkColorsThree" href="#">Services</Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="experience" offset={-110} className="nav-link" >experience</Link>
+              <Link smooth={true} to="experience" offset={-110} className="nav-link specialLinkColorsFour" >Experience</Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="portfolio" offset={-110} className="nav-link" >portfolio</Link>
+              <Link smooth={true} to="portfolio" offset={-110} className="nav-link specialLinkColorsOneFive" >Portfolio</Link>
             </li>
-
             <li className="nav-item">
-              <Link smooth={true} to="contacts" offset={-110} className="nav-link" >contacts</Link>
+              <Link smooth={true} to="contacts" offset={-110} className="nav-link specialLinkColorsSix" >Contact Me</Link>
             </li>
 
           </ul>

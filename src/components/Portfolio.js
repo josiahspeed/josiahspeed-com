@@ -121,7 +121,8 @@ const Pofrfolio = () => {
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
-          {/* - */}
+        </div>
+        <div className="image-box-wrapper row justify-content-center">
           <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
             <img className="portfolio-image" src={portfolio} alt="Portfolio React and Material UI Project..." />
             <div className="overflow"></div>
