@@ -26,7 +26,7 @@ const Navbar = () => {
               <Link smooth={true} to="about" offset={-110} className="nav-link" href="#">About me</Link>
             </li>
             <li className="nav-item background-overlayThree">
-              <Link smooth={true} to="services" offset={-110} className="nav-link" href="#">Services</Link>
+              <Link smooth={true} to="services" offset={-110} className="nav-link" href="#">Downloads</Link>
             </li>
             <li className="nav-item background-overlayFour">
               <Link smooth={true} to="experience" offset={-110} className="nav-link" href="#">Experience</Link>
