@@ -20,6 +20,7 @@
 
 body {
 font-family: "Roboto Condensed", sans-serif !important;
+background-color: #000 !important;
 }
 
 /************************ COLORS ********************************/
@@ -95,7 +96,7 @@ nav ul li {
 }
 
 @media(max-width: 996px) {
-  .background-overlay a:hover {
+  .background-overlay .background-overlayTwo .background-overlayThree .background-overlayFour a:hover {
     background: none !important;
   }
 }
@@ -105,11 +106,46 @@ nav ul li {
 }
 .background-overlay a:hover {
   color: #FFFFFF !important;
-  background: linear-gradient( #62BB47, #FDB727, #F5821F, #983D97, #E03A3E, #0F9DDF);
+  background: linear-gradient(to right, #62BB47, #FDB727);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  height: 50px;
 }
+
+.background-overlayTwo a:hover {
+  color: #FFFFFF !important;
+  background: linear-gradient(to right, #FDB727, #F5821F);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.background-overlayThree a:hover {
+  color: #FFFFFF !important;
+  background: linear-gradient(to right, #F5821F, #983D97);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.background-overlayFour a:hover {
+  color: #FFFFFF !important;
+  background: linear-gradient(to right, #983D97, #E03A3E);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.background-overlayFive a:hover {
+  color: #FFFFFF !important;
+  background: linear-gradient(to right, #E03A3E, #0F9DDF);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.background-overlaySix a:hover {
+  color: #FFFFFF !important;
+  background: linear-gradient(to right, #E03A3E, #62BB47);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
 
 .navbar-toggler {
   background-color: #000000 !important;
@@ -179,9 +215,8 @@ nav ul li {
 
 /*-------- HEADER MAIN OFFER BUTTON ---------------*/
 .btn-main-offer {
-  font-size: 1.2rem;
-  font-weight: 500;
-  background-color: var(--primary-white);
+  font-size: 2rem;
+  font-weight: 700;
   border: 1px solid var(--primary-white);
   cursor: pointer;
   text-transform: uppercase;
@@ -189,15 +224,20 @@ nav ul li {
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
-  font-family: 'Shadows Into Light', cursive;
-  background: linear-gradient(  #F5821F, #983D97, #E03A3E);       
+  font-family: 'Shadows Into Light', cursive;      
 }
 
 .btn-main-offer:hover {
   text-decoration: none;
-  background-color: var(--primary-white);    
+   
   color: var(--primary-white);
   transition:  .2s ease-in-out;
+}
+
+.btn-main-offer a:hover {
+  background: linear-gradient( #62BB47, #FDB727, #F5821F, #983D97, #E03A3E, #0F9DDF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 /*-------- PARTICLES JS ---------------*/
@@ -219,7 +259,7 @@ nav ul li {
 /************************ ABOUT ME *********************************/
 .aboutSection {
   background-color: var(--primary-black);
-  max-width: 100% !important;
+  max-width: 75rem !important;
   margin-top: -15px;
 }
 
@@ -240,23 +280,28 @@ nav ul li {
 }
 
 .profile-img:hover {
-  background-color: var(--primary-white);
+  background: linear-gradient( #62BB47, #FDB727, #F5821F, #983D97, #E03A3E, #0F9DDF);
 }
 
 .about-heading {
   font-family: 'Shadows Into Light', cursive;
   color: var(--primary-white);
-  text-transform: uppercase;
-  background: linear-gradient( #62BB47, #FDB727, #F5821F, #983D97, #E03A3E, #0F9DDF);
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;         
-}
-.about-header h1{
-  font-family: 'Shadows Into Light', cursive !important;
+  text-transform: uppercase;       
 }
 
+.about-heading:hover {
+  background: linear-gradient( #62BB47, #FDB727);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;     
+}
+ .about-header h1, p{
+  font-family: 'Shadows Into Light', cursive !important;
+}
+.about-header p {
+  font-size: 1.7rem;
+}
 .aboutLeft {
-  
+  right: 59px;
 }
 .aboutRight {
   margin-left: -8rem;
@@ -278,6 +323,7 @@ nav ul li {
 .services h1, h3, p {
   color: var(--primary-white);
   text-transform: uppercase;
+  font-family:'Shadows Into Light', cursive !important;
 }
 
 .services .circle {
@@ -303,7 +349,7 @@ nav ul li {
   border-bottom: 0.3125rem solid var(--primary-black);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
-  background: rgba(255, 255, 255, 0.418);
+  background: rgba(255, 255, 255, 0.14);
   transition: 0.3s ease-in-out;
 }
 
@@ -349,6 +395,18 @@ nav ul li {
   font-family: 'Shadows Into Light', cursive;
 }
 
+.experience h1:hover, h3:hover {
+  background: linear-gradient( #62BB47, #FDB727, #F5821F, #983D97, #E03A3E, #0F9DDF);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;      
+}
+
+.experience h3:hover {
+  background: linear-gradient( #E03A3E, #0F9DDF);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;      
+}
+
 .experience-wrapper::before {
   position: absolute;
   content: "";
@@ -370,35 +428,56 @@ nav ul li {
 
 .timeline-block-right {
   float: right;
+  left: -7px;
+  position: relative;
 }
 
 .timeline-block-left {
   float: left;
   direction: rtl;
+  right: -7px;
+  position: relative;
 }
-
 
 .marker {
-  width: 1rem;
-  height: 1rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;;
-  border: 0.3125rem solid var(--primary-dark);
-  background: var(--primary-orange);
+  border: .5px solid var(--primary-white);
+  background: linear-gradient(#62BB47, #FDB727, #F5821F, #983D97, #E03A3E, #0F9DDF);
   margin-top: 0.625rem;
   z-index: 3;
+  transition: transform .7s ease-in-out;
 }
-
+.marker:hover {
+  transform: rotate(360deg);
+}
+.markerLeft {
+ 
+}
+.markerLeft:hover {
+  
+}
+.markerRight {
+  padding-right: 1255px;
+}
+.markerRight:hover {
+ 
+}
 .timeline-content {
   width: 95%;
   padding: 0 0.9375rem;
-  color: var(--primary-dark-grey);
+  color: var(--primary-white);
   direction: ltr;
 }
 
 .timeline-content h3 {
   margin-top: 0.3125rem;
-  color: var(--primary-dark-grey);
+  color: var(--primary-white);
   font-weight: 900;
+  font-family:'Shadows Into Light', cursive !important;
+  padding-left: .5rem;
+  font-size: 2.5rem;
 }
 
 /*------------ MEDIA ------------------*/
@@ -434,6 +513,9 @@ nav ul li {
 
 .portfolio-wrapper h1 {
   color: var(--primary-white);
+  font-weight: 900;
+  font-family:'Shadows Into Light', cursive !important;
+  font-size: 3rem;
 }
 
 .portfolio-image {
@@ -453,8 +535,8 @@ nav ul li {
    opacity: 0;
    background: var(--primary-black);
    width: 35rem;
-   height: 20rem;
-   top: 0;
+   height: 32rem;
+   top: -8px;
   border: 1px solid var(--primary-red);
   cursor: pointer;
 }
