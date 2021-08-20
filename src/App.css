@@ -141,7 +141,7 @@ nav ul li {
 
 .background-overlaySix a:hover {
   color: #FFFFFF !important;
-  background: linear-gradient(to right, #E03A3E, #62BB47);
+  background: linear-gradient(to right, #0F9DDF, #62BB47);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
