@@ -7,34 +7,31 @@ import sample from '../images/sample.mp4';
 const Header = () => {
   return (
     <div id="home">
-      <video className='header-wraper' autoPlay loop muted>
-          <source src={sample} type='video/mp4' />
+      <div className="typed-text-container">
+        <div className="col-lg-12">
+          <Typed
+              className="typed-text"        
+              strings= {["Hello,^1000\n My Name is Josiah Speed"]}
+              typeSpeed= {40}
+              backSpeed= {0}
+              stop           
+            />      
+        </div>
+        <div className="col-lg-12">              
+          <Typed
+            className="typed-text"          
+            strings={["Front-end Devloper", "UI/UX Expert", "Dog Dad", "Muscian"]}
+            typeSpeed={40}
+            backSpeed={60}
+            loop
+          />
+        </div>
+      </div>
+      <video className='header-wraper video-class' autoPlay loop muted>
+        <source src={sample} type='video/mp4' />
       </video>
-      <div className="main-info">
-        <canvas></canvas>
-       
-        <Typed
-          className="typed-text"
-          
-          strings= {["Hello,^1000\n My Name is Josiah Speed"]}
-          typeSpeed= {40}
-          backSpeed= {0}
-          stop
-          
-          
-          
-        />
-        
-        
-        <Typed
-          className="typed-text"
-          
-          strings={["Front-end Devloper", "UI/UX Expert", "Dog Dad", "Muscian"]}
-          typeSpeed={40}
-          backSpeed={60}
-          loop
-        />
-        <Link smooth={true} to="contacts" offset={-110} className="btn-main-offer background-overlay">contact me</Link>
+      <div className="col-lg-12 btn-main-container">
+        {/*   <Link smooth={true} to="contacts" offset={-110} className="btn-main-offer background-overlay">contact me</Link> */}
       </div>
     </div>
   )
