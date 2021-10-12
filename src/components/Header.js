@@ -8,20 +8,20 @@ const Header = () => {
   return (
     <div id="home">
       <div className="typed-text-container">
-        <div className="col-lg-12">
+        <div className="col-12">
           <Typed
               className="typed-text"        
               strings= {["Hello,^1000\n My Name is Josiah Speed"]}
-              typeSpeed= {40}
+              typeSpeed= {65}
               backSpeed= {0}
               stop           
             />      
         </div>
-        <div className="col-lg-12">              
+        <div className="col-12">              
           <Typed
             className="typed-text"          
-            strings={["Front-end Devloper", "UI/UX Expert", "Dog Dad", "Muscian"]}
-            typeSpeed={40}
+            strings={["Front End Developer", "UX Designer", "Dog Dad"]}
+            typeSpeed={65}
             backSpeed={60}
             loop
           />

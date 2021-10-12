@@ -6,19 +6,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 import navMenuBtn from "../images/navMenuBtn.png";
+import linkedinIconV1 from "../images/linkedin-v1.png";
+import githubIconV1 from "../images/github-v1.png";
 const Navbar = () => {
  
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top">
-      <div className="container">
+      <div className="container col-lg-1">
 
         <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo..." /></a>
         <button className="navMenuBtn"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <img src={navMenuBtn}></img>
-        </button>
-
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto">
+        </button>      
+      </div>
+      <div className="collapse navbar-collapse col-lg-10" id="navbarSupportedContent">
+          <ul className="navbar-nav">
             <li className="nav-item active background-overlay">
               <Link smooth={true} to="home" className="nav-link" href="#">Home<span className="sr-only">(current)</span></Link>
             </li>
@@ -37,11 +39,15 @@ const Navbar = () => {
             <li className="nav-item background-overlaySix">
               <Link smooth={true} to="contacts" offset={-110} className="nav-link" href="#">Contact Me</Link>
             </li>
-
           </ul>
-
-        </div>
-
+      </div>
+      <div className="icons collapse navbar-collapse col-lg-1">
+       <a className="linkedin-icon" href="https://www.linkedin.com/in/josiah-speed/" target="_blank">
+        <img className="linkedin-icon" src={linkedinIconV1}/>
+      </a>
+      <a className="github-icon" href="https://www.linkedin.com/in/josiah-speed/" target="_blank">
+        <img className="github-icon" src={githubIconV1}/>
+      </a>
       </div>
     </nav>
   )

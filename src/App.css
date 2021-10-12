@@ -54,8 +54,29 @@ nav {
 
 .navbar-collapse {
   background-color: var(--primary-white);
+  display: flex;
+  justify-content: center;
+}
+.linkedin-icon {
+  transition: transform .4s ease-in-out;
+  padding: 2px;
+}
+.linkedin-icon img:hover {
+  transform: scale(1.1, 1.1);
+}
+.github-icon {
+  transition: transform .4s ease-in-out;
+  padding: 2px;
+}
+.github-icon img:hover {
+  transform: scale(1.1, 1.1);
 }
 
+.icons {
+  position: relative;
+  right: 55px;
+  top: 0px;
+}
 /*----- MENU LINKS --------*/
 nav a.nav-link {
   font-size: .8rem;
@@ -182,8 +203,9 @@ nav ul li {
   display: flex;
   justify-content: center;
   max-width: 500px;
-
+  height: auto;
   margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .main-info {
   display: flex;
@@ -321,6 +343,9 @@ nav ul li {
   }
 }
 
+.about-text {
+  margin-left: 55px;
+}
 /************************ SERVICES *********************************/
 .services {
   text-align: center;
