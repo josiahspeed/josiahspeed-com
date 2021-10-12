@@ -232,7 +232,7 @@ nav ul li {
 }
 /*-------- TYPED TEXT ---------------*/
 .typed-text-container {
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .typed-text {
   font-size: 2rem;
@@ -551,6 +551,12 @@ nav ul li {
   width: 35rem;
  
   padding: 0 0.5rem;
+}
+
+@media(max-width: 1200px) {
+  .portfolio-image {
+    width: 27rem;
+  }
 }
 
 .portfolio-image-box {
