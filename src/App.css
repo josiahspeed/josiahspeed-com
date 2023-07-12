@@ -42,6 +42,7 @@ nav {
   margin: 1rem;
   transition: transform .7s ease-in-out;
 }
+
 .logo:hover {
  
   width: 3.8rem;
@@ -50,6 +51,11 @@ nav {
 
 .logo a:hover{
   color: var(--primary-black);
+}
+
+.logoName {
+  font-size: 1.5rem;
+  color: var(--primary-black) !important;
 }
 
 .navbar-collapse {
@@ -98,10 +104,9 @@ nav ul li {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: var(--primary-dark-grey) !important;
-  font-size: 2rem;
-  font-weight: 500;
-  font-family: 'Shadows Into Light', cursive;
-  font-weight: 900;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .navbar-nav > li > a:hover {
@@ -258,14 +263,13 @@ nav ul li {
   font-weight: 700;
   border: 1px solid var(--primary-black);
   cursor: pointer;
-  text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   background: linear-gradient( #62BB47, #FDB727, #F5821F, #983D97, #E03A3E, #0F9DDF);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   margin: 2rem;
-  font-family: 'Shadows Into Light', cursive;     
+  font-family: 'Roboto Condensed';    
 }
 
 .btn-main-offer:hover {
@@ -314,9 +318,8 @@ nav ul li {
 }
 
 .about-heading {
-  font-family: 'Shadows Into Light', cursive;
-  color: var(--primary-black);
-  text-transform: uppercase;       
+  font-family: 'Roboto Condensed', sans-serif;
+  color: var(--primary-black);      
 }
 
 .about-heading:hover {
@@ -325,7 +328,7 @@ nav ul li {
   -webkit-background-clip: text;     
 }
  .about-header h1, p{
-  font-family: 'Shadows Into Light', cursive !important;
+  font-family: 'Roboto Condensed', sans-serif !important;
 }
 .about-header p {
   font-size: 1.7rem;
@@ -355,8 +358,7 @@ nav ul li {
 
 .services h1, h3, p {
   color: var(--primary-black);
-  text-transform: uppercase;
-  font-family:'Shadows Into Light', cursive !important;
+  font-family:'Roboto Condensed', sans-serif !important;
 }
 
 .services .circle {
@@ -416,12 +418,11 @@ nav ul li {
 }
 
 .experience h1 {
-  text-transform: uppercase;
   color:var(--primary-dark-grey);
   font-size: 3rem;
   font-weight: 800;
   background-repeat: no-repeat;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .experience h1:hover, h3:hover {
@@ -504,7 +505,7 @@ nav ul li {
   margin-top: 0.3125rem;
   color: var(--primary-dark-grey);
   font-weight: 900;
-  font-family:'Shadows Into Light', cursive !important;
+  font-family:'Roboto Condensed', sans-serif !important;
   padding-left: .5rem;
   font-size: 2.5rem;
 }
@@ -543,7 +544,7 @@ nav ul li {
 .portfolio-wrapper h1 {
   color: var(--primary-black);
   font-weight: 900;
-  font-family:'Shadows Into Light', cursive !important;
+  font-family:'Roboto Condensed', sans-serif !important;
   font-size: 3rem;
 }
 
@@ -653,8 +654,7 @@ nav ul li {
 .testimonials h1 {
   color: var(--primary-white);
   padding: 3rem 0;
-  font-family: 'Shadows Into Light', cursive;
-  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .testimonials-content {
@@ -690,7 +690,6 @@ nav ul li {
 .myCarousel h3 {
   color: var(--primary-black);
   font-weight: 600;
-  text-transform: uppercase;
 }
 
 .myCarousel p {
@@ -721,8 +720,7 @@ nav ul li {
 .contacts h1 {
   color: var(--primary-dark-grey);
   padding: 1.3rem 0;
-  text-transform: uppercase;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .contacts p {

@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container col-lg-1">
-
+      
         <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo..." /></a>
         <button className="navMenuBtn"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <img src={navMenuBtn}></img>

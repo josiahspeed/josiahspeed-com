@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <div id="experience" className="experience col-12">
       <div className="d-flex justify-content-center my-5">
-        <h1>experience</h1>
+        <h1>Experience</h1>
       </div>
       <div className="container experience-wrapper">
         <div className="timeline-block timeline-block-right">
@@ -87,7 +87,8 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>EDUCATION University of South Florida</h3>
+            <h1>EDUCATION</h1>
+            <h3>University of South Florida</h3>
             <h2>BS in Information Technology</h2>
             <h2>May 2017</h2>
             <ul className="workDescriptions">

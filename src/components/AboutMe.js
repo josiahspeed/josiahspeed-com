@@ -11,7 +11,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="col-6 aboutRight">
-          <h1 className="about-heading">about me</h1>
+          <h1 className="about-heading">About me</h1>
           <p>
            I am a software developer and application designer with 7+ years experience creating, maintaing, and designing software solutions professionally.
           </p>
