@@ -12,7 +12,7 @@ import "react-popupbox/dist/react-popupbox.css";
 
 
 
-const Pofrfolio = () => {
+const Portfolio = () => {
 
   // Netflix
   const openPopupboxNetflix = () => {
@@ -108,7 +108,7 @@ const Pofrfolio = () => {
   return (
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
-        <h1 className="text-uppercase text-center py-5">portfolio</h1>
+        <h1 className="text-center py-5">Portfolio</h1>
         <div className="image-box-wrapper row justify-content-center">
           <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
             <img className="portfolio-image" src={netflix} alt="Netflix Clone Project..." />
@@ -135,6 +135,32 @@ const Pofrfolio = () => {
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
         </div>
+        <div className="image-box-wrapper row justify-content-center">
+          <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
+            <img className="portfolio-image" src={portfolio} alt="Portfolio React and Material UI Project..." />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+          {/* - */}
+          <div className="portfolio-image-box" onClick={openPopupboxTaskManager}>
+            <img className="portfolio-image" src={taskManager} alt="Task Manager React and Redux Project..." />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+        </div>
+        <div className="image-box-wrapper row justify-content-center">
+          <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
+            <img className="portfolio-image" src={portfolio} alt="Portfolio React and Material UI Project..." />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+          {/* - */}
+          <div className="portfolio-image-box" onClick={openPopupboxTaskManager}>
+            <img className="portfolio-image" src={taskManager} alt="Task Manager React and Redux Project..." />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+        </div>
       </div>
       <PopupboxContainer {...popupboxConfigNetflix} />
       <PopupboxContainer {...popupboxConfigCityGuide} />
@@ -144,4 +170,4 @@ const Pofrfolio = () => {
   )
 }
 
-export default Pofrfolio;
+export default Portfolio;

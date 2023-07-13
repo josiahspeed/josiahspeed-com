@@ -489,7 +489,7 @@ h3:hover {
   height: 2rem;
   border-radius: 50%;
   border: 0.5px solid var(--primary-white);
-  background: linear-gradient(#62BB47, #FDB727, #F5821F, #983D97, #E03A3E, #0F9DDF);
+  background: var(--primary-light-grey);
   margin-top: 0.625rem;
   z-index: 3;
   transition: transform .7s ease-in-out;
@@ -521,7 +521,6 @@ h3:hover {
   color: var(--primary-dark-grey);
   font-weight: 900;
   font-family: 'Roboto Condensed', sans-serif !important;
-  padding-left: 0.5rem;
   font-size: 2.5rem;
 }
 
