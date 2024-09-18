@@ -1,1 +1,235 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>Josiah Speed</title><link href="/static/css/2.2642087a.chunk.css" rel="stylesheet"><link href="/static/css/main.2440619d.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><script>!function(e){function r(r){for(var n,i,a=r[0],c=r[1],l=r[2],p=0,s=[];p<a.length;p++)i=a[p],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(f&&f(r);s.length;)s.shift()();return u.push.apply(u,l||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,a=1;a<t.length;a++){var c=t[a];0!==o[c]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.e=function(e){var r=[],t=o[e];if(0!==t)if(t)r.push(t[2]);else{var n=new Promise((function(r,n){t=o[e]=[r,n]}));r.push(t[2]=n);var u,a=document.createElement("script");a.charset="utf-8",a.timeout=120,i.nc&&a.setAttribute("nonce",i.nc),a.src=function(e){return i.p+"static/js/"+({}[e]||e)+"."+{3:"af56dbea"}[e]+".chunk.js"}(e);var c=new Error;u=function(r){a.onerror=a.onload=null,clearTimeout(l);var t=o[e];if(0!==t){if(t){var n=r&&("load"===r.type?"missing":r.type),u=r&&r.target&&r.target.src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,t[1](c)}o[e]=void 0}};var l=setTimeout((function(){u({type:"timeout",target:a})}),12e4);a.onerror=a.onload=u,document.head.appendChild(a)}return Promise.all(r)},i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="/",i.oe=function(e){throw console.error(e),e};var a=this["webpackJsonpportfolio-project"]=this["webpackJsonpportfolio-project"]||[],c=a.push.bind(a);a.push=r,a=a.slice();for(var l=0;l<a.length;l++)r(a[l]);var f=c;t()}([])</script><script src="/static/js/2.cfb7365b.chunk.js"></script><script src="/static/js/main.5a4b1d18.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <!-- Import Roboto Condensed from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="nav-left">
+                <img src="logo.png" alt="Logo" class="nav-logo">
+                <a href="#" class="logo"></a>
+            </div>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <h1>Crafting seamless digital experiences</h1>
+            <p>Senior Front-End Developer & UX Designer with extensive experience leading teams, developing applications,
+                and solving complex UX challenges.</p> 
+            <a href="#portfolio" class="cta">View My Work</a>
+            <a href="your-resume.pdf" download class="cta secondary">Download Resume</a>
+        </section>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <p>With over 7+ years in front-end development and UI/UX design, I've led teams, crafted innovative solutions,
+                and improved user experiences for various industries.</p>
+            <p>My passion lies in solving complex design challenges through user-centered solutions, working with modern
+                technologies, and contributing to projects that make a difference.</p>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-grid">
+            <!-- Choice Development Block -->
+            <div class="experience-block">
+                <h3>Choice Development</h3>
+                <p><strong>Senior Front-End Developer</strong></p>
+                <p><em>April 2024 - Present</em></p>
+                <ul>
+                    <li>Led a team of 4 engineers in building applications for government contracts using React.</li>
+                    <li>Designed and implemented innovative front-end UI libraries and frameworks.</li>
+                    <li>Resolved critical UX issues, significantly enhancing the overall user experience.</li>
+                    <li>Utilized LENS for Kubernetes pod exploration and verification.</li>
+                </ul>
+            </div>
+    
+            <!-- Facteus Block -->
+            <div class="experience-block">
+                <h3>Facteus</h3>
+                <p><strong>Senior Front-End Developer</strong></p>
+                <p><em>July 2023 - March 2024</em></p>
+                <ul>
+                    <li>Collaborated on designing and developing front-end components for an AI platform.</li>
+                    <li>Spearheaded the creation of innovative front-end UI libraries and frameworks.</li>
+                    <li>Addressed UX challenges to improve the overall application experience.</li>
+                    <li>Employed LENS for Kubernetes pod exploration and verification.</li>
+                </ul>
+            </div>
+    
+            <!-- Phoenix Technologies Block -->
+            <div class="experience-block">
+                <h3>Phoenix Technologies</h3>
+                <p><strong>Principal UX Designer</strong></p>
+                <p><em>December 2021 - February 2023</em></p>
+                <ul>
+                    <li>Directed the UI/UX design for a major enterprise big data project, launched in 2023.</li>
+                    <li>Architected the front-end from technology stack decisions to detailed UI designs.</li>
+                    <li>Led stakeholder meetings to gather project feedback and align on requirements.</li>
+                    <li>Established Confluence and JIRA workflows for the front-end team.</li>
+                    <li>Structured and conducted the front-end team interview process, making key hires.</li>
+                    <li>Delivered a core company project for successful market release.</li>
+                    <li>Added UI/UX end-to-end test coverage using Cypress.io to key company projects.</li>
+                </ul>
+            </div>
+    
+            <!-- Nike Block -->
+            <div class="experience-block">
+                <h3>
+                    NIKE
+                </h3> 
+                <p><strong>Senior Front-End Developer</strong></p>
+                <p><em>August 2021 - December 2021</em></p>
+                <ul>
+                    <li>Developed React components based on UX designs for eCommerce inventory data integration.</li>
+                    <li>Built comprehensive unit test coverage using Jest to ensure application stability.</li>
+                    <li>Achieved all project goals for a timely product launch.</li>
+                    <li>Collaborated with the UI/UX team to integrate DDS designs into reusable React components.</li>
+                    <li>Expanded UI testing coverage in the frontend using Jest.js.</li>
+                </ul>
+            </div>
+    
+            <!-- Edgelink Block -->
+            <div class="experience-block">
+                <h3>Edgelink</h3>
+                <p><strong>UI/UX Designer & Front-End Developer</strong></p>
+                <p><em>October 2020 - August 2021</em></p>
+                <ul>
+                    <li>Led a full re-design of the UI/UX for a web application and oversaw implementation.</li>
+                    <li>Acted as lead designer and developer for all UK web projects.</li>
+                    <li>Identified UI/UX bottlenecks and devised effective solutions to resolve them.</li>
+                    <li>Planned and architected the Epiq React/Redux template site.</li>
+                </ul>
+            </div>
+    
+            <!-- Progeny Genetics Block -->
+            <div class="experience-block">
+                <h3>Progeny Genetics</h3>
+                <p><strong>Fullstack Engineer</strong></p>
+                <p><em>August 2017 - March 2020</em></p>
+                <ul>
+                    <li>Developed and managed front-end React.js components for the Progeny Spring Boot application.</li>
+                    <li>Designed click-through animations, wireframes, and SCRUM tasks for new features.</li>
+                    <li>Debugged, updated, and wrote tests for Java-based features deployed on Jenkins servers.</li>
+                    <li>Collaborated with development and production teams to enhance the user experience.</li>
+                    <li>Managed Checkmarx implementation across all Progeny applications.</li>
+                    <li>Created a standardized UI kit for the development team.</li>
+                </ul>
+            </div>
+    
+            <!-- Rayel Development Block -->
+            <!-- <div class="experience-block">
+                <h3>Rayel Development</h3>
+                <p><strong>Front-End Developer & UI Designer</strong></p>
+                <p><em>March 2017 - September 2017</em></p>
+                <ul>
+                    <li>Designed application mockups, wireframes, and animations for small eCommerce businesses.</li>
+                    <li>Developed websites and enhanced existing applications using React.</li>
+                    <li>Improved clients' SEO through Google Analytics integration, increasing customer engagement.</li>
+                    <li>Optimized websites for mobile performance using Bootstrap.</li>
+                </ul>
+            </div> -->
+    
+        </div>
+    </section>
+    
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-case">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/jWcmUJAG06o7n7dkdPX0fN/UX%2FUI-Portfolio-Presentation-Template-(Community)?node-id=2-2&embed-host=share" allowfullscreen></iframe>
+                <p><strong>Role:</strong> Principal UX Designer</p>
+                <p><strong>Problem:</strong> A large enterprise needed a big data solution with an intuitive UI for real-time data visualization.</p>
+                <p><strong>Solution:</strong> Directed the UI/UX design, architected the front-end technology stack, and led stakeholder meetings to gather feedback.</p>
+                <p><strong>Tools:</strong> React, Cypress.io, Jira</p>
+                <p><strong>Impact:</strong> Launched in 2023 with a significant reduction in user errors.</p>
+            </div>
+
+            <!-- Add additional portfolio entries as needed -->
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Tools I Love</h2>
+        <div class="skills-grid">
+            <div>
+                <h3>Front-End Development</h3>
+                <p>React.js, Redux, Jest.js, JavaScript, TypeScript, HTML5, CSS3, Cypress.io, Kubernetes (LENS)</p>
+            </div>
+            <div>
+                <h3>UX/UI Design</h3>
+                <p>Wireframing, Prototyping, UX Research, User Testing, Interaction Design</p>
+            </div>
+            <div>
+                <h3>Frameworks & Tools</h3>
+                <p>Bootstrap, Confluence, JIRA, Google Analytics, Jenkins, Checkmarx</p>
+            </div>
+            <div>
+                <h3>Other Skills</h3>
+                <p>Team Leadership, Agile Methodologies, SCRUM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-entry">
+            <h3>University of South Florida</h3>
+            <p><strong>BS in Information Technology</strong> | 2017</p>
+            <p>Senior development project: Built an application for helping users find clinical trials hosted on the U.S.
+                clinical trials database.</p>
+        </div>
+    </section> -->
+
+    <!-- Contact Section
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section> -->
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+            <a href="https://github.com/your-username" target="_blank">GitHub</a>
+            <!-- Add more links if necessary -->
+        </div>
+    </footer>
+</body>
+
+</html>
