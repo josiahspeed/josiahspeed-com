@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="185px" height="185px" viewBox="0 0 185 185" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 11</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11">
+            <circle id="Oval" fill="#A0FB02" cx="92.5" cy="92.5" r="92.5"></circle>
+            <path d="M129,133.563223 C119.993152,122.120428 107.335907,115 93.3178279,115 C78.9667533,115 66.0419322,122.462734 57,134.385964" id="Oval" stroke="#000000" stroke-width="8" transform="translate(93.000000, 124.692982) scale(1, -1) translate(-93.000000, -124.692982) "></path>
+            <path d="M76.5,55 C80.6421356,55 84,63.7304474 84,74.5 C84,85.2695526 80.6421356,94 76.5,94 C72.3578644,94 69,85.2695526 69,74.5 C69,63.7304474 72.3578644,55 76.5,55 Z M108.5,55 C112.642136,55 116,63.7304474 116,74.5 C116,85.2695526 112.642136,94 108.5,94 C104.357864,94 101,85.2695526 101,74.5 C101,63.7304474 104.357864,55 108.5,55 Z" id="Combined-Shape" fill="#000000"></path>
+            <line x1="132" y1="113" x2="124" y2="120" id="Path-2" stroke="#000000" stroke-width="4" stroke-linecap="round" transform="translate(128.000000, 116.500000) scale(-1, 1) translate(-128.000000, -116.500000) "></line>
+            <line x1="62" y1="113" x2="54" y2="120" id="Path-2" stroke="#000000" stroke-width="4" stroke-linecap="round"></line>
+        </g>
+    </g>
+</svg>
