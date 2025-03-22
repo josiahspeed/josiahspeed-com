@@ -1407,7 +1407,7 @@ figure {
   z-index: 2;
   opacity: 1;
   background-color: #000;
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
+  background-image: url("../images/no-items-found.jpg");
   background-position: 50%;
   background-size: cover;
   justify-content: flex-end;
@@ -1421,7 +1421,7 @@ figure {
 }
 
 .hero-image {
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
+  background-image: url("../images/no-items-found.jpg");
   background-position: 50%;
   background-size: cover;
   width: 100%;
