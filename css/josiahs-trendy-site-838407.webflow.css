@@ -1420,6 +1420,28 @@ figure {
   overflow: hidden;
 }
 
+.project-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+.project-title {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
 .hero-image {
   background-image: url("../images/no-items-found.jpg");
   background-position: 50%;
