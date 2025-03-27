@@ -1419,6 +1419,31 @@ figure {
   inset: -15vh auto auto -35vw;
   overflow: hidden;
 }
+.header-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+.section {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: left;
+}
+.section img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
 
 .project-list-container {
   display: flex;
