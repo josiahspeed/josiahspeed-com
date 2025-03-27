@@ -1420,8 +1420,9 @@ figure {
   overflow: hidden;
 }
 .header-image {
+  padding-top: 100px;
   width: 100%;
-  max-height: 400px;
+  max-height: 700px;
   object-fit: cover;
 }
 .section {
